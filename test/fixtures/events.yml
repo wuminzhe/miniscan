@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  index: MyString
+  idx: 1
+  block_number: 1
+  extrinsic_idx: 
+  type: 
+  module_id: MyString
+  event_id: MyString
+  params: MyText
+  extrinsic_hash: MyString
+
+two:
+  index: MyString
+  idx: 1
+  block_number: 1
+  extrinsic_idx: 
+  type: 
+  module_id: MyString
+  event_id: MyString
+  params: MyText
+  extrinsic_hash: MyString

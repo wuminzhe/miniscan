@@ -1,0 +1,2 @@
+class Extrinsic < ApplicationRecord
+end

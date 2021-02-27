@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  spec_version: 1
+  modules: MyString
+  raw_data: MyString
+
+two:
+  name: MyString
+  spec_version: 1
+  modules: MyString
+  raw_data: MyString

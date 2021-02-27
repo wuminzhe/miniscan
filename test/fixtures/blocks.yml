@@ -1,0 +1,35 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: 
+  timestamp: 
+  hash: MyString
+  parent_hash: MyString
+  state_root: MyString
+  extrinsics_root: MyString
+  logs: MyString
+  extrinsics: MyText
+  event_count: 
+  extrinsic_count: 
+  events: MyText
+  spec_version: 
+  validator: MyString
+  codec_error: false
+  finalized: false
+
+two:
+  number: 
+  timestamp: 
+  hash: MyString
+  parent_hash: MyString
+  state_root: MyString
+  extrinsics_root: MyString
+  logs: MyString
+  extrinsics: MyText
+  event_count: 
+  extrinsic_count: 
+  events: MyText
+  spec_version: 
+  validator: MyString
+  codec_error: false
+  finalized: false
