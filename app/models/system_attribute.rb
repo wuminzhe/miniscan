@@ -1,0 +1,2 @@
+class SystemAttribute < ApplicationRecord
+end

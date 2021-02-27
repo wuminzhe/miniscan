@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_27_051659) do
+ActiveRecord::Schema.define(version: 2021_02_27_055234) do
 
   create_table "blocks", force: :cascade do |t|
     t.integer "number"
@@ -87,6 +87,13 @@ ActiveRecord::Schema.define(version: 2021_02_27_051659) do
     t.integer "spec_version"
     t.string "modules"
     t.string "raw_data"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "system_attributes", force: :cascade do |t|
+    t.string "name"
+    t.string "value"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
