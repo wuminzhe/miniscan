@@ -1,0 +1,5 @@
+production:
+  endpoint: wss://rpc.polkadot.io
+
+development:
+  endpoint: wss://rpc.polkadot.io
