@@ -4,12 +4,13 @@ class CreateExtrinsics < ActiveRecord::Migration[6.1]
       t.string :index
       t.integer :block_id
       t.integer :block_number
-      t.integer :timestamp
+      # t.text :raw
+      # t.integer :timestamp
       t.string :length
       t.string :version_info
-      t.string :call_code
-      t.string :call_module_function
-      t.string :call_module
+      t.string :module
+      t.string :function
+      t.string :params_raw
       t.text :params
       t.string :account_id
       t.string :signature
@@ -18,7 +19,7 @@ class CreateExtrinsics < ActiveRecord::Migration[6.1]
       t.string :hash
       t.boolean :is_signed
       t.boolean :success
-      t.integer :fee, limit: 30
+      t.integer :fee
       t.integer :batch_index
 
       t.timestamps

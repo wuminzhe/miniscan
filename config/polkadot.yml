@@ -2,4 +2,4 @@ production:
   endpoint: wss://rpc.polkadot.io
 
 development:
-  endpoint: wss://rpc.polkadot.io
+  endpoint: wss://rpc.darwinia.network/
